@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: TrackBoardServer
+  profiles:
+    active: local
