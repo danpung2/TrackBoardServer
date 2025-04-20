@@ -1,4 +1,4 @@
-package com.danpung2.trackboardserver.user.domain;
+package com.danpung2.trackboardserver.user.domain.model;
 
 import com.danpung2.trackboardserver.constant.code.UserRole;
 import lombok.AllArgsConstructor;
@@ -12,11 +12,13 @@ public class User {
     private int id;
     private String nickname;
     private String email;
+    private String password;
     private UserRole userRole;
 
-    public User(String nickname, String email, UserRole userRole) {
+    public User(String nickname, String email, String password, UserRole userRole) {
         this.nickname = nickname;
         this.email = email;
+        this.password = password;
         this.userRole = userRole;
     }
 }

@@ -5,7 +5,7 @@ import com.danpung2.trackboardserver.project.domain.model.Project;
 import com.danpung2.trackboardserver.project.domain.model.ProjectMember;
 import com.danpung2.trackboardserver.project.domain.repository.ProjectMemberRepository;
 import com.danpung2.trackboardserver.project.domain.repository.ProjectRepository;
-import com.danpung2.trackboardserver.user.domain.User;
+import com.danpung2.trackboardserver.user.domain.model.User;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.ArgumentCaptor;
@@ -34,7 +34,7 @@ class ProjectServiceTest {
     @Test
     void createProject() {
         // given
-        User user = new User(0, "tester", "tester@gmail.com", UserRole.MEMBER);
+        User user = new User(0, "tester", "tester@gmail.com", "FakePassword!@#", UserRole.MEMBER);
         String title = "my test project";
         String description = "this is test project";
 

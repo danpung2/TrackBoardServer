@@ -5,7 +5,7 @@ import com.danpung2.trackboardserver.project.domain.model.ProjectAggregate;
 import com.danpung2.trackboardserver.project.domain.model.ProjectMember;
 import com.danpung2.trackboardserver.project.domain.repository.ProjectMemberRepository;
 import com.danpung2.trackboardserver.project.domain.repository.ProjectRepository;
-import com.danpung2.trackboardserver.user.domain.User;
+import com.danpung2.trackboardserver.user.domain.model.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

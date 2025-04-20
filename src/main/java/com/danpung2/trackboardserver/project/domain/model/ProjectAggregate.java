@@ -1,7 +1,7 @@
 package com.danpung2.trackboardserver.project.domain.model;
 
 import com.danpung2.trackboardserver.constant.code.MemberRole;
-import com.danpung2.trackboardserver.user.domain.User;
+import com.danpung2.trackboardserver.user.domain.model.User;
 import lombok.Getter;
 
 import java.util.List;
